@@ -44,10 +44,7 @@ function onGalleryContainerClick(evt) {
     captionsData: "alt",
     captionDelay: 250,
     });
-    gallery.on('show.simplelightbox', function () {
-       
-
-});
+    gallery.on('show.simplelightbox');
     
     gallery.on('error.simplelightbox', function (e) {
     
